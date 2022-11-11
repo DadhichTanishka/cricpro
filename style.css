@@ -1,0 +1,61 @@
+body{
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+#logo{
+    display: flex;
+    justify-content: right;
+    align-content: flex-start;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    background-color: white;
+    border-collapse: collapse;
+    
+}
+#tables{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50vw;
+    margin-top: 25px;
+}
+#center{
+    display: none;
+}
+
+tr{
+    font-size: 30px;
+    
+}
+#head1{
+    font-size: 50px;
+}
+#head2{
+    font-size: 40px;
+    color: gray;
+}
+th{
+    background-color: red;
+    
+}
+td{
+    padding: 10px;
+}
+.grey{
+    color: grey;
+    width: 10vw;
+}
+#uv,#dhoni,#sehwag,#kohli,#gambhir,#sachin,#patel,#khan,#singh,#raina,#s{
+    color: lightskyblue;
+}
+#uvimg{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
